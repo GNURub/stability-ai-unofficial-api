@@ -1,12 +1,21 @@
 {
   "name": "stability-ai-unofficial-api",
   "module": "index.ts",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "An unofficial API for the Stability AI API",
   "main": "lib/bundle.js",
   "author": "Ruben Cid Lara",
   "license": "MIT",
   "type": "module",
+  "keywords": [
+    "stable diffusion",
+    "stability",
+    "ai",
+    "api",
+    "unofficial",
+    "wrapper",
+    "typescript"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:GNURub/stability-ai-unofficial-api.git"
