@@ -8,7 +8,8 @@
   "license": "MIT",
   "type": "module",
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git@github.com:GNURub/stability-ai-unofficial-api.git"
   },
   "directories": {
     "lib": "lib"
