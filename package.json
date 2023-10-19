@@ -1,7 +1,7 @@
 {
   "name": "stability-ai-unofficial-api",
   "module": "index.ts",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "An unofficial API for the Stability AI API",
   "main": "lib/bundle.js",
   "author": "Ruben Cid Lara",
@@ -20,11 +20,11 @@
     "type": "git",
     "url": "git@github.com:GNURub/stability-ai-unofficial-api.git"
   },
-  "directories": {
-    "lib": "lib"
-  },
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "build": "bun build ./src/index.ts --outfile=./lib/bundle.js",
+    "build": "bun build --minify ./src/index.ts --outfile=./lib/bundle.js",
     "start": "build index.ts",
     "prepublish": "npm run build"
   },
